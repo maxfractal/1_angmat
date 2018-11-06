@@ -8,12 +8,17 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { AppComponent } from './app.component';
 
+//Routing
+import { AppRoutingModule } from './app-routing.module';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
+    //Material
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
