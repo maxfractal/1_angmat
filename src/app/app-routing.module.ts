@@ -19,10 +19,10 @@ const routes: Routes = [
         redirectTo: '',
         pathMatch: 'full'
     }
-]
+];
 
 NgModule({
     imports: [ RouterModule.forRoot(routes)],
     exports: [ RouterModule ]
 })
-export class AppRouting Module {}
+export class AppRoutingModule {}
